@@ -1,31 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Meu Ingresso",
+  "projectDescription": "Plataforma completa de venda de ingressos, inscrições e controle de acesso para organizadores e participantes de eventos.",
   "theme": "almond",
-  "name": "Meu Ingresso",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Publicar Evento",
-      "href": "https://meuingresso.com.br/cadastro"
-    }
-  },
-  "footer": {
-    "socials": {
-      "instagram": "https://instagram.com/meuingressodigital",
-      "linkedin": "https://linkedin.com/company/meuingressodigital",
-      "facebook": "https://facebook.com/meuingressodigital"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -131,5 +111,29 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Publicação de eventos em 2 minutos",
+    "Venda de ingressos com checkout seguro (PIX e cartão de crédito)",
+    "Check-in por QR Code via app iOS/Android (modo offline)",
+    "Gestão de equipe com permissões por colaborador",
+    "Painel financeiro com repasses e antecipação de recebíveis sem custo",
+    "Checkout personalizado com campos extras por evento",
+    "Programa de Promotores com links exclusivos e comissões automáticas",
+    "Relatórios em tempo real de vendas, check-in e receita",
+    "Mapa de assentos dinâmico",
+    "Certificados digitais com envio automático pós-evento",
+    "E-mail marketing para base de participantes",
+    "Suporte dedicado para organizadores e participantes"
+  ],
+  "publicApiSurface": [
+    "GET /eventos — listagem pública de eventos disponíveis",
+    "POST /cadastro — criação de conta (participante ou organizador)",
+    "POST /login — autenticação na plataforma",
+    "GET /minha-conta/ingressos — ingressos do participante autenticado",
+    "POST /checkout — processamento de compra de ingressos",
+    "GET /para-produtores — página informativa para organizadores",
+    "POST /promotores — cadastro no programa de promotores",
+    "GET /eventos/:slug — página pública do evento"
+  ]
 }
