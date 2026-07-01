@@ -1,5 +1,5 @@
 ---
-title: "App de check-in do Meu Ingresso para portaria"
+title: "App de check-in: valide ingressos no iOS e Android"
 sidebarTitle: "App de Check-in"
 description: "Baixe e configure o app de check-in do Meu Ingresso para iOS e Android. Valide entradas por QR Code com modo offline para eventos de qualquer tamanho."
 ---
@@ -9,13 +9,13 @@ O app de check-in do Meu Ingresso é a principal ferramenta para controlar o ace
 ## Funcionalidades principais
 
 <CardGroup cols={3}>
-  <Card title="Leitura de QR Code" icon="qrcode">
+  <Card title="Leitura de QR Code" icon="qrcode" href="/organizadores/validacao-qrcode">
     Escaneie o ingresso de cada participante em segundos diretamente pela câmera do celular ou tablet.
   </Card>
-  <Card title="Modo offline" icon="wifi-slash">
+  <Card title="Modo offline" icon="wifi-slash" href="/organizadores/app-checkin">
     Sincronize a lista antes do evento e valide entradas sem internet. Os dados são sincronizados assim que a conexão for restabelecida.
   </Card>
-  <Card title="Contador em tempo real" icon="users">
+  <Card title="Contador em tempo real" icon="users" href="/organizadores/relatorios-exportacao">
     Acompanhe o número de entradas realizadas ao longo do evento sem precisar sair da tela de leitura.
   </Card>
 </CardGroup>
@@ -51,7 +51,7 @@ Siga o passo a passo abaixo para deixar tudo pronto antes da portaria abrir.
 O modo offline é pensado para eventos em locais com cobertura de internet limitada ou instável. Veja o fluxo completo:
 
 <Accordion title="Como o modo offline valida ingressos?">
-  Após a sincronização, toda a lista de participantes fica armazenada localmente no dispositivo. Durante o evento, o app valida cada QR Code consultando essa base local — sem precisar se comunicar com os servidores. Quando a conexão for restabelecida, o app sincroniza automaticamente os check-ins realizados offline, atualizando o painel em tempo real para todos os dispositivos da equipe.
+  Após a sincronização, toda a lista de participantes fica armazenada localmente no dispositivo. Durante o evento, o app valida cada QR Code consultando essa base local — sem precisar de conexão com a internet. Quando a conexão for restabelecida, o app sincroniza automaticamente os check-ins realizados offline, atualizando o painel em tempo real para todos os dispositivos da equipe.
 </Accordion>
 
 <Accordion title="O que acontece se dois dispositivos validarem o mesmo ingresso offline?">
