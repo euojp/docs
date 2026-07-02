@@ -144,5 +144,17 @@
       "family": "Inter",
       "weight": 400
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/introducao",
+      "destination": "/organizador",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "organizador",
+      "permanent": true
+    }
+  ]
 }
