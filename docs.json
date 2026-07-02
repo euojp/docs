@@ -29,11 +29,11 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Para Participantes",
+        "tab": "Para Organizadores",
         "groups": [
           {
             "group": "Introdução",
-            "icon": "rocket",
+            "icon": "anchor",
             "pages": [
               "introducao"
             ]
@@ -41,78 +41,75 @@
           {
             "group": "Primeiros Passos",
             "pages": [
-              "organizadores/visao-geral",
               "participantes/criar-conta",
               "participantes/como-comprar-ingresso"
-            ]
+            ],
+            "icon": "binoculars"
           },
           {
-            "group": "Seus Ingressos",
+            "group": "Publicar eventos",
             "pages": [
               "participantes/encontrar-ingressos",
               "participantes/transferir-ingresso",
               "participantes/cancelamentos-reembolsos"
-            ]
+            ],
+            "icon": "calendar-plus"
           },
           {
-            "group": "Pagamentos",
+            "group": "Ingressos e inscrições",
             "pages": [
               "participantes/formas-de-pagamento",
               "participantes/pagamento-pendente",
               "participantes/pagamento-recusado",
               "participantes/identificar-cobranca"
-            ]
+            ],
+            "icon": "ticket"
           },
           {
-            "group": "Conta & Acesso",
+            "group": "Campos personalizados e formulários",
+            "pages": [
+              "organizadores/criar-evento",
+              "organizadores/publicar-evento"
+            ],
+            "icon": "backpack"
+          },
+          {
+            "group": "Cupons, promoções e descontos",
+            "pages": [
+              "organizadores/painel-de-controle",
+              "organizadores/tipos-de-ingresso",
+              "organizadores/checkout-personalizado",
+              "organizadores/gestao-de-equipe"
+            ],
+            "icon": "badge-percent"
+          },
+          {
+            "group": "Marketing e vendas",
+            "icon": "rocket",
+            "pages": []
+          },
+          {
+            "group": "Checkout e pagamento",
+            "icon": "credit-card",
+            "pages": []
+          },
+          {
+            "group": "Pedidos, participantes e vendas",
+            "icon": "user-round-check",
             "pages": [
               "participantes/atualizar-dados",
               "participantes/redefinir-senha"
             ]
           },
           {
-            "group": "Primeiros Passos",
+            "group": "Cancelamentos e reembolsos",
+            "icon": "banknote-x",
             "pages": [
-              "organizadores/criar-evento",
-              "organizadores/publicar-evento"
-            ]
-          },
-          {
-            "group": "Gestão do Evento",
-            "pages": [
-              "organizadores/painel-de-controle",
-              "organizadores/tipos-de-ingresso",
-              "organizadores/checkout-personalizado",
-              "organizadores/gestao-de-equipe"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Para Organizadores",
-        "groups": [
-          {
-            "group": "Check-in & Acesso",
-            "pages": [
-              "organizadores/app-checkin",
-              "organizadores/validacao-qrcode",
-              "organizadores/credenciamento-etiqueta"
-            ]
-          },
-          {
-            "group": "Financeiro",
-            "pages": [
-              "organizadores/pagamentos-repasses",
-              "organizadores/antecipacao-recebiveis",
-              "organizadores/taxa-servico"
-            ]
-          },
-          {
-            "group": "Marketing & Relatórios",
-            "pages": [
-              "organizadores/programa-promotores",
-              "organizadores/email-marketing",
-              "organizadores/relatorios-exportacao"
+              {
+                "group": "Check-in e credenciamento",
+                "icon": "qr-code",
+                "pages": []
+              }
             ]
           }
         ]
