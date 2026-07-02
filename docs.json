@@ -27,121 +27,116 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Para Organizadores",
-        "groups": [
-          {
-            "group": "Introdução",
-            "icon": "anchor",
-            "pages": [
-              "introducao"
-            ]
-          },
-          {
-            "group": "Primeiros Passos",
-            "pages": [
-              "participantes/criar-conta",
-              "participantes/dashboard"
-            ],
-            "icon": "binoculars"
-          },
-          {
-            "group": "Eventos",
-            "pages": [
-              "participantes/criar-evento",
-              "participantes/Configurar-evento",
-              "participantes/pagina-do-evento"
-            ],
-            "icon": "calendar-plus"
-          },
-          {
-            "group": "Ingressos e inscrições",
-            "pages": [
-              "participantes/criar-ingresso",
-              "participantes/tipos-de-ingresso",
-              "participantes/lotes-e-disponibilidade",
-              "participantes/cortesias"
-            ],
-            "icon": "ticket"
-          },
-          {
-            "group": "Vendas e pagamento",
-            "pages": [
-              "organizadores/criar-evento",
-              "organizadores/publicar-evento"
-            ],
-            "icon": "credit-card"
-          },
-          {
-            "group": "Pedidos e participantes",
-            "icon": "user-round-check",
-            "pages": [
-              "participantes/atualizar-dados",
-              "participantes/redefinir-senha"
-            ]
-          },
-          {
-            "group": "Cupons e descontos",
-            "pages": [
-              "organizadores/painel-de-controle",
-              "organizadores/tipos-de-ingresso",
-              "organizadores/checkout-personalizado",
-              "organizadores/gestao-de-equipe"
-            ],
-            "icon": "badge-percent"
-          },
-          {
-            "group": "Marketing e divulgação",
-            "icon": "rocket",
-            "pages": []
-          },
-          {
-            "group": "Check-in e credenciamento",
-            "icon": "qr-code",
-            "pages": []
-          },
-          {
-            "group": "Colaboradores e permissões",
-            "icon": "users",
-            "pages": []
-          },
-          {
-            "group": "Financeiro",
-            "icon": "wallet-minimal",
-            "pages": []
-          },
-          {
-            "group": "Relatórios e dados",
-            "icon": "chart-line",
-            "pages": []
-          },
-          {
-            "group": "Certificados",
-            "icon": "award",
-            "pages": []
-          },
-          {
-            "group": "Integrações",
-            "icon": "unplug",
-            "pages": []
-          },
-          {
-            "group": "Promotores e afiliados",
-            "icon": "megaphone",
-            "pages": []
-          },
-          {
-            "group": "Políticas e segurança",
-            "icon": "brick-wall-shield",
-            "pages": []
-          },
-          {
-            "group": "Problemas frequentes",
-            "icon": "message-circle-question-mark",
-            "pages": []
-          }
+        "group": "Introdução",
+        "icon": "anchor",
+        "pages": [
+          "introducao"
         ]
+      },
+      {
+        "group": "Primeiros Passos",
+        "icon": "binoculars",
+        "pages": [
+          "participantes/criar-conta",
+          "participantes/dashboard"
+        ]
+      },
+      {
+        "group": "Eventos",
+        "icon": "calendar-plus",
+        "pages": [
+          "participantes/criar-evento",
+          "participantes/Configurar-evento",
+          "participantes/pagina-do-evento"
+        ]
+      },
+      {
+        "group": "Ingressos e inscrições",
+        "icon": "ticket",
+        "pages": [
+          "participantes/criar-ingresso",
+          "participantes/tipos-de-ingresso",
+          "participantes/lotes-e-disponibilidade",
+          "participantes/cortesias"
+        ]
+      },
+      {
+        "group": "Vendas e pagamento",
+        "icon": "credit-card",
+        "pages": [
+          "organizadores/criar-evento",
+          "organizadores/publicar-evento"
+        ]
+      },
+      {
+        "group": "Pedidos e participantes",
+        "icon": "user-round-check",
+        "pages": [
+          "participantes/atualizar-dados",
+          "participantes/redefinir-senha"
+        ]
+      },
+      {
+        "group": "Cupons e descontos",
+        "icon": "badge-percent",
+        "pages": [
+          "organizadores/painel-de-controle",
+          "organizadores/tipos-de-ingresso",
+          "organizadores/checkout-personalizado",
+          "organizadores/gestao-de-equipe"
+        ]
+      },
+      {
+        "group": "Marketing e divulgação",
+        "icon": "rocket",
+        "pages": []
+      },
+      {
+        "group": "Check-in e credenciamento",
+        "icon": "qr-code",
+        "pages": []
+      },
+      {
+        "group": "Colaboradores e permissões",
+        "icon": "users",
+        "pages": []
+      },
+      {
+        "group": "Financeiro",
+        "icon": "wallet-minimal",
+        "pages": []
+      },
+      {
+        "group": "Relatórios e dados",
+        "icon": "chart-line",
+        "pages": []
+      },
+      {
+        "group": "Certificados",
+        "icon": "award",
+        "pages": []
+      },
+      {
+        "group": "Integrações",
+        "icon": "unplug",
+        "pages": []
+      },
+      {
+        "group": "Promotores e afiliados",
+        "icon": "megaphone",
+        "pages": []
+      },
+      {
+        "group": "Políticas e segurança",
+        "icon": "brick-wall-shield",
+        "pages": []
+      },
+      {
+        "group": "Problemas frequentes",
+        "icon": "message-circle-question-mark",
+        "pages": []
       }
     ]
   },
