@@ -131,5 +131,18 @@
         ]
       }
     ]
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 700
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400
+    }
   }
 }
