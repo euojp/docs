@@ -108,7 +108,7 @@
           },
           {
             "group": "Financeiro",
-            "icon": "hand-coins",
+            "icon": "wallet-minimal",
             "pages": []
           },
           {
@@ -123,12 +123,17 @@
           },
           {
             "group": "Integrações",
-            "icon": "git-compare-arrows",
+            "icon": "unplug",
             "pages": []
           },
           {
             "group": "Promotores e afiliados",
             "icon": "megaphone",
+            "pages": []
+          },
+          {
+            "group": "Políticas e segurança",
+            "icon": "brick-wall-shield",
             "pages": []
           }
         ]
