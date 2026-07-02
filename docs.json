@@ -112,16 +112,6 @@
             "pages": []
           },
           {
-            "group": "Checkout e pagamento",
-            "icon": "credit-card",
-            "pages": []
-          },
-          {
-            "group": "Cancelamentos e reembolsos",
-            "icon": "banknote-x",
-            "pages": []
-          },
-          {
             "group": "Relatórios e dados",
             "icon": "chart-line",
             "pages": []
@@ -132,8 +122,13 @@
             "pages": []
           },
           {
-            "group": "Comunicação com participantes",
-            "icon": "send",
+            "group": "Integrações",
+            "icon": "git-compare-arrows",
+            "pages": []
+          },
+          {
+            "group": "Promotores e afiliados",
+            "icon": "megaphone",
             "pages": []
           }
         ]
