@@ -165,5 +165,8 @@
   "redirects": [],
   "background": {
     "decoration": "gradient"
+  },
+  "search": {
+    "prompt": "O que está procurando?"
   }
 }
