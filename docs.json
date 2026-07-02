@@ -34,6 +34,7 @@
           {
             "group": "Primeiros Passos",
             "pages": [
+              "organizadores/visao-geral",
               "introducao",
               "participantes/criar-conta",
               "participantes/como-comprar-ingresso"
@@ -62,16 +63,10 @@
               "participantes/atualizar-dados",
               "participantes/redefinir-senha"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Para Organizadores",
-        "groups": [
+          },
           {
             "group": "Primeiros Passos",
             "pages": [
-              "organizadores/visao-geral",
               "organizadores/criar-evento",
               "organizadores/publicar-evento"
             ]
@@ -84,7 +79,12 @@
               "organizadores/checkout-personalizado",
               "organizadores/gestao-de-equipe"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Para Organizadores",
+        "groups": [
           {
             "group": "Check-in & Acesso",
             "pages": [
