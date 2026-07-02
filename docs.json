@@ -120,6 +120,21 @@
             "group": "Financeiro e repasses",
             "icon": "hand-coins",
             "pages": []
+          },
+          {
+            "group": "Relatórios e dados",
+            "icon": "chart-line",
+            "pages": []
+          },
+          {
+            "group": "Comunicação com participantes",
+            "icon": "send",
+            "pages": []
+          },
+          {
+            "group": "Certificados",
+            "icon": "award",
+            "pages": []
           }
         ]
       },
