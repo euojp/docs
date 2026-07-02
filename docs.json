@@ -42,26 +42,26 @@
             "group": "Primeiros Passos",
             "pages": [
               "participantes/criar-conta",
-              "participantes/como-comprar-ingresso"
+              "participantes/dashboard"
             ],
             "icon": "binoculars"
           },
           {
             "group": "Eventos",
             "pages": [
-              "participantes/encontrar-ingressos",
-              "participantes/transferir-ingresso",
-              "participantes/cancelamentos-reembolsos"
+              "participantes/criar-evento",
+              "participantes/Configurar-evento",
+              "participantes/pagina-do-evento"
             ],
             "icon": "calendar-plus"
           },
           {
             "group": "Ingressos e inscrições",
             "pages": [
-              "participantes/formas-de-pagamento",
-              "participantes/pagamento-pendente",
-              "participantes/pagamento-recusado",
-              "participantes/identificar-cobranca"
+              "participantes/criar-ingresso",
+              "participantes/tipos-de-ingresso",
+              "participantes/lotes-e-disponibilidade",
+              "participantes/cortesias"
             ],
             "icon": "ticket"
           },
