@@ -42,6 +42,7 @@
             "group": "Primeiros Passos",
             "icon": "binoculars",
             "pages": [
+              "criar-conta",
               "acessando-o-painel",
               "dados-da-conta",
               "dados-fiscais"
