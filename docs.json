@@ -7,7 +7,7 @@
     "light": "#844dc6",
     "dark": "#844dc6"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon.png",
   "logo": {
     "light": "/images/MeuIngressologo-Mintlifyroxa.png",
     "dark": "/images/MeuIngressologo-Mintlifybranca.png"
